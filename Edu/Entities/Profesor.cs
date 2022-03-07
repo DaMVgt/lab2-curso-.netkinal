@@ -9,7 +9,8 @@ namespace AsignacionLab2.Edu.Entities
 
         public bool EliminarAsignatura()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Se ha eliminado la asignatura del profesor: {this.Apellidos}, {this.Nombres}");
+            return true;
         }
 
         public void ListarMisDatos()
