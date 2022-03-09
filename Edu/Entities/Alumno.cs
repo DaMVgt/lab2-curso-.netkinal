@@ -17,5 +17,16 @@ namespace AsignacionLab2.Edu.Entities
         {
             throw new NotImplementedException();
         }
+
+        public Alumno () : base()
+        {
+        }
+        
+        public Alumno(string uuid, string apellidos, string nombres, string email, string carne, string numeroCreditos)
+            : base()
+        {
+            this.Carne = carne;
+            this.NumeroCreditos = numeroCreditos;
+        }
     }
 }

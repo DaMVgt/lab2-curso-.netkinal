@@ -17,5 +17,16 @@ namespace AsignacionLab2.Edu.Entities
         {
             throw new NotImplementedException();
         }
+
+        public Profesor () : base()
+        {
+        }
+
+        public Profesor(string uuid, string apellidos, string nombres, string email, string cui, string cargo)
+            : base()
+        {
+            this.Cui = cui;
+            this.Cargo = cargo;
+        }
     }
 }

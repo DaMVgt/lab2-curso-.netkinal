@@ -11,5 +11,17 @@ namespace AsignacionLab2.Edu.Entities
         {
 
         }
+
+        public Persona()
+        {
+        }
+
+        public Persona(string uuid, string apellidos, string nombres, string email)
+        {
+            this.Uuid = uuid;
+            this.Apellidos = apellidos;
+            this.Nombres = nombres;
+            this.Email = email;
+        }
     }
 }
