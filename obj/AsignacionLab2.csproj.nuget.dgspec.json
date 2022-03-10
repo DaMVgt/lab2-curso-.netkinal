@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\AsignacionLab2\\AsignacionLab2.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\AsignacionLab2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\AsignacionLab2\\AsignacionLab2.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\AsignacionLab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\AsignacionLab2\\AsignacionLab2.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\AsignacionLab2.csproj",
         "projectName": "AsignacionLab2",
-        "projectPath": "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\AsignacionLab2\\AsignacionLab2.csproj",
-        "packagesPath": "C:\\Users\\antmo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\AsignacionLab2\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\AsignacionLab2.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\antmo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

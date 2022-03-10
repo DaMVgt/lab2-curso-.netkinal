@@ -1,0 +1,5 @@
+C:\Users\Carlos\Desktop\kinal\lab2-curso-.netkinal\obj\Debug\net6.0\AsignacionLab2.csproj.AssemblyReference.cache
+C:\Users\Carlos\Desktop\kinal\lab2-curso-.netkinal\obj\Debug\net6.0\AsignacionLab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlos\Desktop\kinal\lab2-curso-.netkinal\obj\Debug\net6.0\AsignacionLab2.AssemblyInfoInputs.cache
+C:\Users\Carlos\Desktop\kinal\lab2-curso-.netkinal\obj\Debug\net6.0\AsignacionLab2.AssemblyInfo.cs
+C:\Users\Carlos\Desktop\kinal\lab2-curso-.netkinal\obj\Debug\net6.0\AsignacionLab2.csproj.CoreCompileInputs.cache
