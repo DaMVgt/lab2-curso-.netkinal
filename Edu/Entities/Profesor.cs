@@ -7,23 +7,30 @@ namespace AsignacionLab2.Edu.Entities
         public string Cui { get; set; }
         public string Cargo { get; set; }
 
-        public bool EliminarAsignatura()
+        public override void TomarAsistencia()
+        {
+
+        }
+
+        public bool EliminarAsignatura(string asignatura)
         {
             Console.WriteLine($"Se ha eliminado la asignatura del profesor: {this.Apellidos}, {this.Nombres}");
             return true;
         }
 
-        public void ListarMisDatos()
+        public void ListarMisDatos(string identificador)
         {
-            throw new NotImplementedException();
+            Console.Write($"UUID: {this.Uuid} \nApellidos: {this.Apellidos} \nNombres: {this.Nombres} \nCargo: {this.Cargo}"); 
         }
 
         public Profesor () : base()
         {
+            this.Cui = "";
+            this.Cargo = ""; 
         }
 
         public Profesor(string uuid, string apellidos, string nombres, string email, string cui, string cargo)
-            : base()
+            : base(uuid,apellidos,nombres,email)
         {
             this.Cui = cui;
             this.Cargo = cargo;

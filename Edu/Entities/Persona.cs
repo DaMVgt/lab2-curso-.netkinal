@@ -1,19 +1,20 @@
 namespace AsignacionLab2.Edu.Entities
 {
-    public class Persona
+    public abstract class Persona
     {
         public string Uuid { get; set; }
         public string Apellidos { get; set; }
         public string Nombres { get; set; }
         public string Email { get; set; }
 
-        public void TomarAsistencia()
-        {
-
-        }
+        public abstract void TomarAsistencia();  
 
         public Persona()
         {
+            this.Uuid = "";
+            this.Apellidos = "";
+            this.Nombres = "";
+            this.Email = "";  
         }
 
         public Persona(string uuid, string apellidos, string nombres, string email)
