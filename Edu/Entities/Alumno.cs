@@ -9,7 +9,7 @@ namespace AsignacionLab2.Edu.Entities
 
         public override void TomarAsistencia()
         {
-
+            Console.WriteLine($"Se registro asistencia de alumno con Carne: {this.Carne}");
         }
 
         public bool EliminarAsignatura(string asignatura)

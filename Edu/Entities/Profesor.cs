@@ -9,7 +9,7 @@ namespace AsignacionLab2.Edu.Entities
 
         public override void TomarAsistencia()
         {
-
+            Console.WriteLine($"Se registro asistencia de profesor con CUI: {this.Cui}");
         }
 
         public bool EliminarAsignatura(string asignatura)
