@@ -2,10 +2,27 @@
 
 public class Program
 {
-    private static List<Persona> ListaGeneral = new(); 
+    private static List<Persona> ListaGeneral = new List<Persona>(); 
     public static void Main(string[] args)
     {
+        Alumno JuanPerez = new Alumno("12123", "Perez Alvarez", "Juan Alberto", "jperez@kalum.edu.gt", "2022001", "30");
+        Profesor JuanGonzales = new Profesor("312", "Gonzales Perez", "Juan Antonio", "jgonzales@kalum.edu.gt", "1239873460101","Instructor");
 
+        OperarRegistro(JuanPerez);
+        OperarRegistro(JuanGonzales);
+
+        Console.WriteLine("---------Registrando Asistencias----------");
+        RegistrarAsistencia(JuanPerez);
+        RegistrarAsistencia(JuanGonzales);
+
+        Console.WriteLine("---------Datos General----------");
+        VerMisDatos(JuanPerez);
+        Console.WriteLine("---------Datos General----------");
+        VerMisDatos(JuanGonzales);
+
+        Console.WriteLine("--------------------------------");
+        QuitarAsignatura(JuanPerez, "Matematica");
+        QuitarAsignatura(JuanGonzales, "Informatica");
     }
 
     public static void OperarRegistro(Persona elemento)
@@ -30,14 +47,14 @@ public class Program
         }
     }
 
-    public static void QuitarAsignatura(Persona elemento)
+    public static void QuitarAsignatura(Persona elemento, string asignatura)
     {
         if(elemento is Profesor)
         {
-            ((Profesor)elemento).EliminarAsignatura("");
+            ((Profesor)elemento).EliminarAsignatura(asignatura);
         } else if ( elemento is Alumno)
         {
-            ((Alumno)elemento).EliminarAsignatura(""); 
+            ((Alumno)elemento).EliminarAsignatura(asignatura); 
         }
     }
 }

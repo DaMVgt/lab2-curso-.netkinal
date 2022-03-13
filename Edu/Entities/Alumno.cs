@@ -20,7 +20,7 @@ namespace AsignacionLab2.Edu.Entities
 
         public void ListarMisDatos(string identificar)
         {
-            Console.WriteLine($"UUID: {this.Uuid} \nApellidos: {this.Apellidos} \nNombres: {this.Nombres} \nCargo: {this.NumeroCreditos}");
+            Console.WriteLine($"UUID: {this.Uuid} \nApellidos: {this.Apellidos} \nNombres: {this.Nombres} \nNumero de creditos: {this.NumeroCreditos}");
         }
 
         public Alumno () : base()

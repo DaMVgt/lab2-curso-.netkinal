@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
+    "C:\\Users\\antmo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\AsignacionLab2.csproj",
+      "projectUniqueName": "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\prueba\\lab2-curso-.netkinal\\AsignacionLab2.csproj",
       "projectName": "AsignacionLab2",
-      "projectPath": "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\AsignacionLab2.csproj",
-      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Desktop\\kinal\\lab2-curso-.netkinal\\obj\\",
+      "projectPath": "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\prueba\\lab2-curso-.netkinal\\AsignacionLab2.csproj",
+      "packagesPath": "C:\\Users\\antmo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\antmo\\Desktop\\KINAL\\lab2\\prueba\\lab2-curso-.netkinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\antmo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
